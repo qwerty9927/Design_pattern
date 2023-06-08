@@ -46,7 +46,7 @@
 
 - **Translate and explain**: Singleton là một thiết kế buộc người dùng chỉ sử dụng một thể hiện ( instance ) của một lớp ( class ) và thể hiện này được sử dụng như một biến toàn cục.
 
-> VD: Bạn có một món đồ A ***( instance đầu tiên và duy nhất được tạo )*** rất nhiều người mượn sử dụng. Mỗi lần sử dụng có thể sẽ làm giá trị của nó thay đổi. Ai muốn mượn ***đều phải thông qua bạn***, điều này có nghĩa là ***người tiếp theo mượn*** sẽ luôn biết được giá trị đó.
+> VD: Bạn có một món đồ A ***( instance đầu tiên và duy nhất được tạo )*** rất nhiều người mượn sử dụng. Mỗi lần sử dụng có thể sẽ làm giá trị của nó thay đổi. Ai muốn mượn ***đều phải thông qua bạn*** và ***người tiếp theo mượn*** sẽ biết được giá trị này.
 
 > ### **Example RoundRobin algorithm**
     
